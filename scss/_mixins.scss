@@ -1,0 +1,24 @@
+// MEDIA QUERIES
+@mixin mq-xs() {
+    @media only screen and (max-width: $mq-xs) {
+        @content;
+    }
+}
+
+@mixin mq-sm() {
+    @media only screen and (max-width: $mq-sm) {
+        @content;
+    }
+}
+
+@mixin mq-md() {
+    @media only screen and (max-width: $mq-md) {
+        @content;
+    }
+}
+
+@mixin mq-lg() {
+    @media only screen and (max-width: $mq-lg) {
+        @content;
+    }
+}
